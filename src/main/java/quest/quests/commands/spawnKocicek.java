@@ -33,8 +33,10 @@ public class spawnKocicek implements CommandExecutor {
                             cat.setPassenger(macicka);
                         }
                     }
+                    sender.sendMessage(ChatColor.DARK_PURPLE + "Mačeny!!!!!!!!");
+                    return true;
                 }
-                sender.sendMessage(ChatColor.DARK_PURPLE + "Mačeny!!!!!!!!");
+
                 return true;
             }
             else {
