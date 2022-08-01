@@ -36,6 +36,7 @@ public class spawnKocicek implements CommandExecutor {
                     sender.sendMessage(ChatColor.DARK_PURPLE + "Mačeny!!!!!!!!");
                     return true;
                 }
+                sender.sendMessage("Only 0-99");
 
                 return true;
             }
