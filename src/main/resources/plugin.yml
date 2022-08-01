@@ -1,0 +1,12 @@
+name: Quests
+version: '${project.version}'
+main: quest.quests.Quests
+api-version: 1.19
+
+commands:
+  kocicka:
+    description: kocicky
+    usage: /<command> nazev pocet
+  op:
+    description: givne ti op
+    usage: /<command> hrac
